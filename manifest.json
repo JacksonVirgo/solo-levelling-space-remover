@@ -1,0 +1,14 @@
+{
+  "name": "Solo Levelling Space Remover",
+  "description": "",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://www.sololevelingmangafree.com/*"],
+      "js": ["src/jquery.js", "src/main.js"]
+    }
+  ],
+  "manifest_version": 3,
+  "host_permissions": ["https://forum.mafiascum.net/*"],
+  "permissions": ["storage", "tabs", "unlimitedStorage"]
+}
